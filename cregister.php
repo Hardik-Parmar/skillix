@@ -92,13 +92,13 @@ if (isset($_POST['submit']))
  	{
  	?>
 	 	<script type="text/javascript">
-	 		alert("E-Mail is Already Submitted, Please Try Another E-Maill...!!!");
+	 		alert("E-Mail is Already Submitted, Please Try Another E-Maill...!!!");//Alert for Already used E-mail
 	 	</script>
  	<?php
  	}
 
  	// Password Verification
-    else if ($Password != $c_pwd) 
+    else if ($Password != $c_pwd) //Checks for Password Authentication
     {
         echo "<script> alert('Password is not matched Correctly to Confirm Password Field, Please Try Agin...!!!'); </script>";
     }
