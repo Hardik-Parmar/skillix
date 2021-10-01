@@ -38,8 +38,8 @@
 	</div>
 </div>
 </div>
-		<div class="container-fluid">
-			<div class="row"  style="text-align: justify; font-size: 18px;padding-top: 20px;">
+		<div class="container-fluid form-group">
+			<div class="row sm-8"  style="text-align: justify; font-size: 18px;padding-top: 20px;">
 				<div class="col-sm-12">
 					
 				
